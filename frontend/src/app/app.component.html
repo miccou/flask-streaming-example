@@ -1,0 +1,12 @@
+<button (click)="startStreaming()">Start streaming</button>
+<!-- <div *ngIf="videoUrl">
+  <video id="video-element" controls autoplay>
+    <source [src]="videoUrl" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div> -->
+
+<video controls autoplay>
+  <source src="http://localhost:5000/video_feed" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
